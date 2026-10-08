@@ -38,6 +38,20 @@ Stego Image
 
 
 
+
+
+🚀 Flow
+
+
+
+
+
+<img width="1024" height="678" alt="Image" src="https://github.com/user-attachments/assets/21913afa-c4a1-45fd-bd3c-061efbdf75fc" />
+
+
+
+
+
 ### Decoding
 
 The hidden information is extracted from the stego image and used to recreate the original file.
@@ -74,6 +88,10 @@ Recreate Secret File
 ▶️ Usage
 
 
+<img width="1284" height="799" alt="Image" src="https://github.com/user-attachments/assets/71a85ca5-b3e2-4af2-9c50-0e6f90914937" />
+
+
+<img width="967" height="568" alt="Image" src="https://github.com/user-attachments/assets/894cb7b8-b5e4-4e18-a248-e37fccbb16d4" />
 
 
 ### Encode
