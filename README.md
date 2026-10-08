@@ -1,4 +1,11 @@
-LSB Image Steganography using C
+
+
+
+  LSB IMAGE STEGANOGRAPHY uSING C
+
+
+
+
 
 
 
@@ -24,15 +31,15 @@ The secret file is hidden inside the BMP image by storing its information in the
 
   
 Secret File
-     ↓
+     ==>
 Read File
-     ↓
+     ==>
 Get Extension & Size
-     ↓
+     ==>
 Convert Data to Bits
-     ↓
+     ==>
 Hide Bits in BMP Image
-     ↓
+     ==>
 Stego Image
 
 
@@ -47,13 +54,13 @@ The hidden information is extracted from the stego image and used to recreate th
 
 
 Stego Image
-     ↓
+     ==>
 Read Hidden Bits
-     ↓
+     ==>
 Extract Extension & Size
-     ↓
+     ==>
 Extract File Data
-     ↓
+     ==>
 Recreate Secret File
 
 
@@ -88,22 +95,22 @@ Recreate Secret File
 
 
 
-### Encode
+## Encode
 
 
-./a.out -e source.bmp secret_file output.bmp
+./a.out  -e  source.bmp  secret_file  output.bmp
 
 
 Example:
 
 
-./a.out -e beautiful.bmp song.mp3 stego.bmp
+./a.out  -e  beautiful.bmp  secret.txt  stego.bmp
 
 
-### Decode
+## Decode
 
 
-./a.out -d stego.bmp
+./a.out  -d  stego.bmp
 
 
 The hidden file will be extracted with its original extension.
@@ -124,20 +131,6 @@ The hidden file will be extracted with its original extension.
 * LSB Steganography
 
 
-
-📂 Project Files
-
-
-
-Image-Steganography/
-│
-├── main.c
-├── encode.c
-├── encode.h
-├── decode.c
-├── decode.h
-├── types.h
-└── README.md
 
 
 
